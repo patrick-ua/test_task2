@@ -1,0 +1,295 @@
+* {
+	padding: 0;
+	margin: 0;
+	/*border: 0.1px solid blue;*/
+}
+body {
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	font-weight: normal;	
+	color: #757575;
+	margin: 0 auto;		
+}
+div {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+/* Форма обратной связи*/
+.form-php {
+	display: none;	
+	margin: 0 auto;
+	text-align: center;	
+}
+
+/* Шапка сайта*/
+header {
+	background: #dbdbdb;		
+}
+
+.heading {
+	height: 165px;
+}
+.company-logo {
+	float: left;
+	text-align: right;
+	width: 280px;
+	height: 100px;
+	margin: 65px 0 65px 0;
+}
+.company-logo img {
+	float: left;
+	height: 100px;
+	width: 100px;
+	background-color: #777777;		
+	left: 200px;
+	margin-right: 15px;
+}
+.company-logo h2 {
+	padding-top: 10px;
+	text-align: left;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 0.8;	
+}
+.company-logo p {
+	padding-top: 15px;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+}
+.company-phones {
+	float: right;
+	margin-top: 45px;
+}
+.company-phones p {
+	font-weight: 100;
+	font-size: 35px;
+	letter-spacing: 0.1px;
+	line-height: 15px;
+	font-stretch: ultra-condensed;
+	padding-bottom: 15px;
+}
+.company-phones a {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	float: right;
+	border-bottom: 2px dotted #757575;
+	color: #757575;
+	text-decoration: none;
+	line-height: 20px;
+}
+
+/*Меню сайта*/
+.head-menu {
+	background: #767676;
+	padding: 5px;	
+}
+
+.menu {
+	height: 60px;
+	background: #767676 !important;	
+}
+.menu a {
+	color: #fff;
+	font-size: 18px;
+}
+.navbar-collapse.collapse {
+    text-align: center;
+}
+.navbar-nav {
+    margin: 0 auto;
+    padding: 0;   
+    margin-bottom: -4px;
+    text-align: left;
+    float: none;
+}
+.navbar-nav p {
+	color: #fff;
+	margin: 0 10px 0 10px;	
+}
+.navbar-nav li {
+	border-right: 2px solid #fff;
+	padding: 0 10px 0 10px;
+}
+.navbar-nav li:last-child {
+	border-right: none;
+}
+
+
+
+
+/* Slider */
+.head-slider {
+	background: #f8f8f8;
+	height: 100%;
+}
+
+ul{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ }
+
+/*SECTION MIDDLE*/
+
+.breadcrumb {
+	background: #fff;
+}
+
+.breadcrumb li {	
+	font-size: 11px;
+	padding: 0px 3px 0 3px;
+	margin-top: 1px;
+	font-weight: bold;
+}
+.breadcrumb a {
+	text-decoration: underline;
+	color: #757575;
+}
+.menu-main {
+	float: left;
+}
+.left-menu {
+	width: 140px;
+	margin-bottom: 80px;
+}
+.left-menu a {
+	color: #757575;	
+}
+.left-menu a:hover {
+	text-decoration: underline;	
+}
+.price-list img{
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.price-list h2 {
+	padding-top: 10px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 26px;
+}
+.card {
+	float: right;
+	width: 250px;
+	height: 380px;
+	margin: 0 20px 20px 0;
+	background: #dbdbdb;
+	padding: 20px;	
+}
+.card p {
+	font-weight: bolder;
+	padding-top: 10px;
+	font-size: 15px;
+
+}
+.card-top img {
+	height: 210px; 
+	width: 210px;
+	margin: 0 auto;
+}
+.card-bottom{
+	margin-top: 30px;
+}
+.card-bottom p {
+	font-size: 24px;
+	float: left;
+}
+.card-bottom img {
+	float: right;
+	margin: 14px 10px 0 0;
+}
+.all-center{
+	float: right;
+	padding-right: 100px;	
+}
+.center-text {	
+	margin-left: 200px;
+	box-sizing: content-box;
+	padding-right: 120px;
+}
+.center-text p {
+	font-size: 11px;
+}
+.top-footer {
+	margin-bottom: 50px;
+
+}
+
+
+/*footer*/
+footer {
+	background: #767676;
+	color: #fff;
+
+}
+footer .card {
+	background: #767676;
+	height: 160px;	
+}
+footer .card ul li {
+	margin-bottom: 5px;
+	font-weight: bold;
+	text-decoration: underline;	
+}
+footer .card-group{
+	padding-top: 20px;
+}
+footer .card-group .card {
+	font-size: 12px;
+} 
+footer .company-logo {	
+	margin: 0;
+}
+footer .company-logo img {	
+	background-color: #fff;	
+}
+footer .company-logo p {	
+	font-size: 12px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+	.company-phones p {	
+		font-size: 26px;
+		padding-bottom: 10px;	
+	}
+	.company-phones a {	
+		font-size: 14px;	
+	}
+	.company-phones {
+		margin-top: 75px;
+	}
+	.card {
+
+	}
+
+}
+
+/* medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+	
+}
+
